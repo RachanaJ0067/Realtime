@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 import os
-API_KEY = os.environ.get("API_KEY")
+API_KEY = "08a241a5f6ea741e3dbe4e0ad7ea8e8c"
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
